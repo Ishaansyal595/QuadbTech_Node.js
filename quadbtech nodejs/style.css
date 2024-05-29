@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  background: #191d28;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#nav-middle {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+#nav-middle > select {
+  background-color: #212635;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+#nav-middle > select:hover {
+  border: 1px solid white;
+}
+
+#buy-btc {
+  text-transform: uppercase;
+  border: 2px solid #212635;
+  background-color: #212635;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#buy-btc:hover {
+  border: 1px solid white;
+}
+
+#buy-btc a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  font-weight: 600;
+  background-color: rgb(122, 201, 201);
+  padding: 4px 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: white;
+}
+
+#nav-right > button > img {
+  margin-right: 5px;
+}
+
+#main-1 {
+  color: rgb(112, 112, 112);
+  font-weight: 600;
+  text-align: center;
+}
+
+#main-1 > h1 {
+  font-size: 20px;
+}
+
+#inner-main-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.inner-main-1-div {
+  color: rgb(122, 201, 201);
+  font-size: 18px;
+}
+
+.inner-main-1-lower {
+  font-size: 12px;
+}
+
+.inner-main-div-middle {
+  font-size: 60px;
+}
+
+#main-2 {
+  margin-top: 50px;
+  font-weight: 700;
+  color: rgb(112, 112, 112);
+  margin-bottom: 50px;
+}
+
+.main-2-div {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+}
+
+.column:nth-child(1) {
+  flex: 0.5; /* This column will take 1.5/6th of the row width */
+}
+
+.column:nth-child(2) {
+  flex: 0.8; /* This column will take 1.5/6th of the row width */
+}
+
+.column:nth-child(3) {
+  flex: 1.5; /* This column will take 1.5/6th of the row width */
+}
+.column:nth-child(4) {
+  flex: 1.5; /* This column will take 1.5/6th of the row width */
+}
+
+.main-2-div-div {
+  padding: 10px;
+  margin: 0px 10px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: #212635;
+}
+
+.main-2-div-div img {
+  border-radius: 50%;
+}
+
+.main-2-div-div .column {
+  height: 100%;
+  align-content: center;
+  color: white;
+}
+
+.main-2-div-div .column:nth-child(2) > div {
+  flex: 0.8; /* This column will take 1.5/6th of the row width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.main-2-div-div .column:nth-child(5),
+.main-2-div-div .column:nth-child(6) {
+  color: rgb(69, 240, 134);
+}
+
+#button {
+  width: 100%;
+  background-color: #191d28;
+  position: fixed;
+  height: 50px;
+  text-align: center;
+  padding: 6px;
+  bottom: 0;
+  z-index: 8;
+}
+
+.sticky {
+  color: rgb(122, 201, 201);
+  background-color: transparent;
+  border: 2px solid rgb(122, 201, 201);
+}
